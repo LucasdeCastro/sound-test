@@ -1,0 +1,62 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fafafa;
+  padding: 0px;
+  margin: 0px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls button {
+  border: 0px;
+  margin: 10px;
+  color: #FFF;
+  font-size: 12px;
+  border-radius: 3px;
+  padding: 10px 20px;
+  background: #5A9E6E;
+  cursor: pointer;
+}
+
+.controls button:nth-child(2) {
+  background-color: #F0B642;
+}
+
+.frequency {
+  padding: 20px;
+  font-size: 45px;
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 200px;
+  height: auto;
+  align-self: center;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #CCC;
+}
+
+.info {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
