@@ -24,6 +24,8 @@ const App = () => {
     });
   }
 
+  console.log(chart);
+
   return (
     <>
       <h1 className="title">Perdendo audição</h1>
