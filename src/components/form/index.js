@@ -45,7 +45,7 @@ const Form = () => {
           }}
           name="frequency"
         >
-          <option disabled value="">Em qual frequencia você parou?</option>
+          <option disabled value="">Em qual frequência você parou?</option>
           {new Array(18)
             .fill(0)
             .map((x, i) => (
