@@ -29,7 +29,7 @@ export const get = async () => {
     return stream;
   });
 
-  const data = ids.map((id) => db.collection('frequency').doc(id).get({ source: 'cache' }));
+  const data = ids.map((id) => db.collection('frequency').doc(id).get({ source: 'server' }));
   return Promise.all(data).then((e) => e.map((x) => x.data()));
 };
 
