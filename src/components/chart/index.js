@@ -7,7 +7,7 @@ const colors = ['red', 'green', 'pink', 'yellow'];
 
 const Chart = ({ data }) => (
   <ScatterChart
-    width={600}
+    width={Math.min(600, window.innerWidth - 20)}
     height={500}
     margin={{
       top: 20, right: 20, bottom: 20, left: 20,
